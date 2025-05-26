@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e508a205-d3ea-45af-83aa-928da62220c3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/ch04/4.2.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/4.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/4.4.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/4.4.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/4.5.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/two_layer_net.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,10 +76,15 @@
     "Python.3.6.3.executor": "Run",
     "Python.3.6.executor": "Run",
     "Python.4.2.1.executor": "Run",
+    "Python.4.3.executor": "Run",
+    "Python.4.4.2.executor": "Run",
+    "Python.4.4.executor": "Run",
+    "Python.4.5.2.executor": "Run",
+    "Python.gradient.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/workSpace/pyCharmWorkSpace/DeepLearning",
+    "last_opened_file_path": "E:/note/deepLearning/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +131,8 @@
       <workItem from="1747876344417" duration="7000" />
       <workItem from="1748004541138" duration="3864000" />
       <workItem from="1748067393032" duration="12665000" />
-      <workItem from="1748164937647" duration="5469000" />
+      <workItem from="1748164937647" duration="7055000" />
+      <workItem from="1748230822095" duration="15214000" />
     </task>
     <servers />
   </component>
@@ -140,21 +150,47 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch04/4.4.2.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch04/4.4.2.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/gradient.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepLearning$3_5.coverage" NAME="3.5 覆盖结果" MODIFIED="1748076856224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_three" />
+    <SUITE FILE_PATH="coverage/DeepLearning$4_3.coverage" NAME="4.3 覆盖结果" MODIFIED="1748234202303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
     <SUITE FILE_PATH="coverage/DeepLearning$1_5.coverage" NAME="1.5 覆盖结果" MODIFIED="1747315676920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_one" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_6_3.coverage" NAME="3.6.3 覆盖结果" MODIFIED="1748084186384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$2_3.coverage" NAME="2.3 覆盖结果" MODIFIED="1747484847553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_two" />
     <SUITE FILE_PATH="coverage/DeepLearning$1_3.coverage" NAME="1.3 覆盖结果" MODIFIED="1747313659754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_One" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_6_1.coverage" NAME="3.6.1 覆盖结果" MODIFIED="1748080079338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
+    <SUITE FILE_PATH="coverage/DeepLearning$4_4.coverage" NAME="4.4 覆盖结果" MODIFIED="1748237733336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_6.coverage" NAME="3.6 覆盖结果" MODIFIED="1748077735132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_three" />
+    <SUITE FILE_PATH="coverage/DeepLearning$4_4_2.coverage" NAME="4.4.2 覆盖结果" MODIFIED="1748240597054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
     <SUITE FILE_PATH="coverage/DeepLearning$1_6.coverage" NAME="1.6 覆盖结果" MODIFIED="1747316374719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_one" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_2.coverage" NAME="3.2 覆盖结果" MODIFIED="1748008920727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_three" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_6_2.coverage" NAME="3.6.2 覆盖结果" MODIFIED="1748082911848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_3.coverage" NAME="3.3 覆盖结果" MODIFIED="1748068893565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_three" />
     <SUITE FILE_PATH="coverage/DeepLearning$2_5.coverage" NAME="2.5 覆盖结果" MODIFIED="1747486232994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_two" />
     <SUITE FILE_PATH="coverage/DeepLearning$3_4.coverage" NAME="3.4 覆盖结果" MODIFIED="1748071093926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_three" />
+    <SUITE FILE_PATH="coverage/DeepLearning$gradient.coverage" NAME="gradient 覆盖结果" MODIFIED="1748240523287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/DeepLearning$4_2_1.coverage" NAME="4.2.1 覆盖结果" MODIFIED="1748173389492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/DeepLearning$4_5_2.coverage" NAME="4.5.2 覆盖结果" MODIFIED="1748260557203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
     <SUITE FILE_PATH="coverage/DeepLearning$1_4.coverage" NAME="1.4 覆盖结果" MODIFIED="1747313939565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/para_One" />
   </component>
 </project>
